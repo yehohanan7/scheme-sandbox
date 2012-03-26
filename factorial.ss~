@@ -1,0 +1,6 @@
+(define (factorial number)
+  (if (= number 1)
+      1
+      (factorial (* number (- number 1)))))
+
+(factorial 3)

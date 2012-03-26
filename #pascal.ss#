@@ -1,0 +1,4 @@
+(define (generate-pascal number-of-rows)
+    (if (= number-of-rows 1) 
+	1
+	(
